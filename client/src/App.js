@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
-import About from './pages/About/About';
-import Technologies from './pages/Technologies/Technologies';
-import Portfolio from './pages/Portfolio/Portfolio';
-import Contact from './pages/Contact/Contact';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/pages/Home/Home';
+import About from './components/pages/About/About';
+import Tech from './components/pages/Tech/Tech';
+import Portfolio from './components/pages/Portfolio/Portfolio';
+import Contact from './components/pages/Contact/Contact';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Placeholder</h1>
-        <About />
-        <Technologies />
-        <Portfolio />
-        <Contact />
-      </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/tech" component={Tech} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+        </div>
+      </Router>
     );
   }
 }
