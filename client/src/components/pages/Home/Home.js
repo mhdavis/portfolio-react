@@ -8,23 +8,35 @@ class Home extends Component {
       <div className="home-container">
         <div className="body-frame">
 
-        <div className="home-title center">
+        <div className="home-title-box center">
           <h1 className="primary-title">Michael H. Davis</h1>
           <h2 className="secondary-title">Fullstack Developer</h2>
         </div>
 
-        <Link to="/about">
-          <button id="about-link" className="home-link left">About</button>
-        </Link>
-        <Link to="/tech">
-          <button id="tech-link" className="home-link">Tech</button>
-        </Link>
-        <Link to="/portfolio">
-          <button id="portfolio-link" className="home-link">Portfolio</button>
-        </Link>
-        <Link to="/contact">
-          <button id="contact-link" className="home-link">Contact</button>
-        </Link>
+        <div id="about-link">
+          <Link to="/about">
+            <button className="home-link">About</button>
+          </Link>
+        </div>
+
+        <div id="tech-link">
+          <Link to="/tech">
+            <button className="home-link">Tech</button>
+          </Link>
+        </div>
+
+        <div id="portfolio-link">
+          <Link to="/portfolio">
+            <button className="home-link">Portfolio</button>
+          </Link>
+        </div>
+
+        <div id="contact-link">
+          <Link to="/contact">
+            <button className="home-link">Contact</button>
+          </Link>
+        </div>
+
         </div>
       </div>
     );
