@@ -1,0 +1,54 @@
+html {
+  border: 1px solid red;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.home-container {
+  background-color: blue;
+}
+
+.home-title {
+  background-color: grey;
+  color: white;
+  padding: 0.5em;
+}
+
+.body-frame {
+  position: fixed;
+  z-index: 300;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 20px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .body-frame {
+    display: block;
+  }
+}
+
+.center {
+  text-align: center;
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 30%;
+}
+
+.primary-title {
+  margin: 0.1em;
+  padding: 0.1em;
+  text-align: center;
+}
+
+.secondary-title {
+  margin: 0.1em;
+  padding: 0.1em;
+  text-align: center;
+}
