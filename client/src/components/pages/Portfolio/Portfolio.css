@@ -50,10 +50,11 @@ body {
 .portfolio-items-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border: 1px solid Transparent;
   grid-gap: 1.5rem;
   height: 500px;
   padding: 1em;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 /* HOME BUTTON
