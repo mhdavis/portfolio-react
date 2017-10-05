@@ -2,71 +2,80 @@ body {
   margin: 0;
 }
 
-.about-container {
+.portfolio-container {
   display: flex;
 }
 
-.about-img {
+.portfolio-img {
   width: 50vw;
 }
 
 @media (max-width: 700px) {
-  .about-img {
+  .portfolio-img {
     width: 0vw;
   }
 }
 
-/* ABOUT PANEL + CONTENTS
+/* PORTFOLIO PANEL + CONTENTS
 -------------------------------------------------------*/
-.about-panel {
+.portfolio-panel {
   display: flex;
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-between;
-  border-left: 10px solid orange;
+  border-right: 10px solid orange;
 }
 
-.about-information {
+.portfolio-information {
   background-color: Transparent;
   margin: 1rem;
   padding: 1rem;
 }
 
-.about-information > h1 {
+.portfolio-information > h1 {
   color: #2f393b;
 }
 
-.about-information > hr {
+.portfolio-information > hr {
   background-color: orange;
   height: 5px;
   border: 0px;
   border-radius: 2px;
 }
 
-.about-information > p {
+.portfolio-information > p {
   color: #2f393b;
+}
+
+.portfolio-items-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  height: 500px;
+  padding: 1em;
+  overflow-y: auto;
 }
 
 /* HOME BUTTON
 -------------------------------------------------------*/
-.about-button-div {
+.portfolio-button-div {
   background-color: white;
   align-self: center;
 }
 
-.about-home-button {
+.portfolio-home-button {
   font-size: 17px;
   margin-top: 0.5em;
   color: white;
   background-color: orange;
   border: 0;
   padding: 1em;
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   border-radius: 10px 10px 0px 0px;
   transition: 0.5s;
 }
 
-.about-home-button:hover {
+.portfolio-home-button:hover {
   color: orange;
   background-color: white;
   border: 2px solid orange;

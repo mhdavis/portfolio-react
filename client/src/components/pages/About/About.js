@@ -22,9 +22,9 @@ class About extends Component {
             </p>
           </div> {/*end about information*/}
 
-          <div className="button-div">
+          <div className="about-button-div">
             <Link to="/">
-              <button className="home-button">HOME</button>
+              <button className="about-home-button">HOME</button>
             </Link>
           </div>
 
