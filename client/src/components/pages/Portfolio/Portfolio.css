@@ -1,25 +1,13 @@
-.portfolio-container {
-  display: flex;
-}
-
-.portfolio-img {
-  width: 50vw;
-}
-
-@media (max-width: 700px) {
-  .portfolio-img {
-    width: 0vw;
-  }
+.portfolio-container, .portfolio-content-row {
+  height: 100%;
 }
 
 /* PORTFOLIO PANEL + CONTENTS
 -------------------------------------------------------*/
 .portfolio-panel {
-  display: flex;
   background-color: white;
-  min-height: 100vh;
-  justify-content: space-between;
   border-right: 10px solid orange;
+  border-radius: 0 10px 10px 0;
 }
 
 .portfolio-information {
@@ -45,7 +33,7 @@
 
 .portfolio-items-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border: 1px solid Transparent;
   grid-gap: 1.5rem;
   height: 500px;
@@ -55,25 +43,26 @@
 
 /* HOME BUTTON
 -------------------------------------------------------*/
-.portfolio-button-div {
-  background-color: white;
-  align-self: center;
+.portfolio-route-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-route-container {
+  background-color: Transparent;
+  transform: rotate(90deg);
 }
 
 .portfolio-home-button {
-  font-size: 17px;
-  margin-top: 0.5em;
-  color: white;
-  background-color: orange;
   border: 0;
-  padding: 1em;
-  transform: rotate(90deg);
-  border-radius: 10px 10px 0px 0px;
+  background-color: Transparent;
+  font-size: 17px;
+  color: orange;
   transition: 0.5s;
 }
 
 .portfolio-home-button:hover {
-  color: orange;
-  background-color: white;
-  border: 2px solid orange;
+  font-size: 20px;
+  color: darkorange;
 }
