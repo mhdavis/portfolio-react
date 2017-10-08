@@ -1,39 +1,25 @@
-body {
-  background-color: #2f393b;
-}
-
 .home-container {
-  position: relative;
+  height: 100%;
+  display: grid;
 }
 
-.home-title-box {
+#about-link {
+  transform: rotate(-90deg);
+}
+
+#portfolio-link {
+  transform: rotate(90deg);
+}
+
+/* LOGO BOX CONTENTS
+--------------------------------------------------*/
+.logo-box {
   background-color: hsla(168, 3%, 26%, 0.68);
   color: white;
   padding: 0.5em;
-  width: 30%;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.body-frame {
-  position: fixed;
-  z-index: 300;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 20px solid #fff;
-}
-
-@media (min-width: 768px) {
-  .body-frame {
-    display: block;
-  }
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .primary-title {
@@ -49,52 +35,15 @@ body {
   color: orange;
 }
 
-/* NAVIGATION BUTTONS
+/* GENERIC BUTTON STYLING
 ----------------------------------------------------*/
 .home-link {
   color: white;
   background-color: Transparent;
   font-size: 21px;
   border: 0px;
+  transition: 0.5s;
 }
 .home-link:hover {
   color: orange;
-}
-
-#about-link {
- position: absolute;
- left: 0%;
- top: 50%;
- margin-top: 30px;
- -webkit-transform: rotate(-90deg);
- -moz-transform: rotate(-90deg);
- -o-transform: rotate(-90deg);
- -ms-transform: rotate(-90deg);
- transform: rotate(-90deg);
-}
-
-#tech-link {
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  margin-top: 30px;
-}
-
-#portfolio-link {
-  position: absolute;
-  right: 0%;
-  top: 50%;
-  margin-top: 30px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-#contact-link {
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  margin-bottom: 30px;
 }
