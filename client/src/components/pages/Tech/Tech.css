@@ -1,0 +1,64 @@
+.red {
+  border: 1px solid red;
+}
+
+.tech-section-header {
+  color: orange;
+}
+
+.tech-primary-title {
+  align-content: center;
+}
+
+.tech-panel {
+  border-top: 10px solid orange;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+  padding: 1em;
+}
+
+.tech-line {
+  color: #2f393b;
+}
+
+.tech-section-footer {
+  margin: 1em 0;
+  background-color: white;
+}
+
+.tech-items-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid Transparent;
+  grid-gap: 1.5rem;
+  height: 500px;
+  margin: 0.5em 1em;
+  padding: 1em;
+  overflow-y: scroll;
+}
+
+
+/* HOME BUTTON
+-------------------------------------------------------*/
+.tech-route-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tech-route-container {
+  background-color: Transparent;
+}
+
+.tech-home-button {
+  border: 0;
+  background-color: Transparent;
+  font-size: 17px;
+  color: orange;
+  transition: 0.5s;
+}
+
+.tech-home-button:hover {
+  font-size: 20px;
+  color: darkorange;
+}
