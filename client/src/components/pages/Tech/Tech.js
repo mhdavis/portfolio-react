@@ -10,8 +10,8 @@ class Tech extends Component {
       <div className="tech-container">
         <Row>
           <Col xs={12}>
-            <Row center="xs">
 
+            <Row center="xs">
               <Col xs={12} sm={12} md={10} lg={10}>
                  {/* Tech Section Header */}
                  <div className="tech-section-header">
@@ -22,6 +22,7 @@ class Tech extends Component {
                  {/* Tech Section Body */}
                  <Row className="tech-section-body">
                    <Col xs={12} className="tech-panel">
+
                      <Row center="xs">
                        <Col xs={12}>
 
@@ -50,12 +51,14 @@ class Tech extends Component {
 
                        </Col>
                      </Row>
+
                    </Col>
                  </Row>
                  {/* Tech Section Body */}
-               </Col>
 
+               </Col>
             </Row>
+
           </Col>
         </Row>
       </div>

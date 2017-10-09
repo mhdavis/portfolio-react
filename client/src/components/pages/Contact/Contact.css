@@ -1,0 +1,27 @@
+.contact-panel {
+  background-color: white;
+  border-bottom: 10px solid orange;
+  height: 70vh;
+}
+
+/* SOCIAL MEDIA CONTAINER
+-------------------------------------------------------*/
+.contact-media-buttons {
+  margin: 1em 0;
+}
+
+/* HOME BUTTON
+-------------------------------------------------------*/
+.contact-home-button {
+  margin-top: 1em;
+  border: 0px;
+  background-color: Transparent;
+  font-size: 17px;
+  color: orange;
+  transition: 0.5s;
+}
+
+.contact-home-button:hover {
+  font-size: 20px;
+  color: darkorange;
+}

@@ -1,7 +1,3 @@
-.red {
-  border: 1px solid red;
-}
-
 .tech-section-header {
   color: orange;
 }
@@ -37,19 +33,8 @@
   overflow-y: scroll;
 }
 
-
 /* HOME BUTTON
 -------------------------------------------------------*/
-.tech-route-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.tech-route-container {
-  background-color: Transparent;
-}
-
 .tech-home-button {
   border: 0;
   background-color: Transparent;

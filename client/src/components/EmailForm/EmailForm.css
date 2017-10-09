@@ -1,0 +1,37 @@
+/* CONTACT EMAIL FORM
+-------------------------------------------------------*/
+.contact-textarea {
+  border: 2px solid orange;
+  width: 100%;
+  resize: vertical;
+}
+
+.contact-input {
+  width: 100%;
+}
+
+.contact-input > label {
+  width: 20%;
+}
+
+.contact-input > input {
+  width: 80%;
+}
+
+.input-field {
+  border: 2px solid orange;
+  margin: 0.2em 0 0.2em 0.2em;
+}
+
+.contact-submit-btn {
+  background-color: orange;
+  color: white;
+  width: 100%;
+  padding: 0.3em;
+  border: 0px;
+  transition: 0.5s;
+}
+
+.contact-submit-btn:hover {
+  background-color: darkorange;
+}
