@@ -1,9 +1,12 @@
 /* CONTACT EMAIL FORM
 -------------------------------------------------------*/
 .contact-textarea {
-  border: 2px solid orange;
-  width: 100%;
+  border: 2px solid #2f393b;
+  width: 97.5%;
   resize: vertical;
+  color: #2f393b;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
 
 .contact-input {
@@ -11,20 +14,27 @@
 }
 
 .contact-input > label {
-  width: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+  width: 30%;
+  color: #2f393b;
 }
 
 .contact-input > input {
-  width: 80%;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 70%;
+  color: #2f393b;
 }
 
 .input-field {
-  border: 2px solid orange;
+  border: 2px solid #2f393b;
   margin: 0.2em 0 0.2em 0.2em;
 }
 
 .contact-submit-btn {
-  background-color: orange;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  background-color: #2f393b;
   color: white;
   width: 100%;
   padding: 0.3em;
@@ -33,5 +43,5 @@
 }
 
 .contact-submit-btn:hover {
-  background-color: darkorange;
+  background-color: orange;
 }

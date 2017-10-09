@@ -4,17 +4,20 @@
 
 .tech-primary-title {
   align-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
 }
 
 .tech-panel {
-  border-top: 10px solid orange;
-  border-radius: 10px 10px 0 0;
+  border-top: 14px solid orange;
   background-color: white;
   padding: 1em;
 }
 
 .tech-line {
   color: #2f393b;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
 }
 
 .tech-section-footer {
@@ -24,7 +27,7 @@
 
 .tech-items-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border: 1px solid Transparent;
   grid-gap: 1.5rem;
   height: 500px;
@@ -37,8 +40,9 @@
 -------------------------------------------------------*/
 .tech-home-button {
   border: 0;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: Transparent;
-  font-size: 17px;
+  font-size: 18px;
   color: orange;
   transition: 0.5s;
 }

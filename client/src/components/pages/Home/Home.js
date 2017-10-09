@@ -12,7 +12,7 @@ class Home extends Component {
         <Row center="xs" top="xs">
           <Col xs={12}>
             <Link to="/tech">
-              <button id="tech-link" className="home-link">Tech</button>
+              <button id="tech-link" className="home-link">TECH</button>
             </Link>
           </Col>
         </Row>
@@ -22,7 +22,7 @@ class Home extends Component {
           <Col xs={2}>
             <Row middle="xs">
               <Link to="/about">
-                <button id="about-link" className="home-link">About</button>
+                <button id="about-link" className="home-link">ABOUT</button>
               </Link>
             </Row>
           </Col>
@@ -37,7 +37,7 @@ class Home extends Component {
           <Col xs={2}>
             <Row middle="xs" end="xs">
               <Link to="/portfolio">
-                <button id="portfolio-link" className="home-link">Portfolio</button>
+                <button id="portfolio-link" className="home-link">PORTFOLIO</button>
               </Link>
             </Row>
           </Col>
@@ -47,7 +47,7 @@ class Home extends Component {
         <Row center="xs" bottom="xs">
           <Col xs={12}>
             <Link to="/contact">
-              <button id="contact-link" className="home-link">Contact</button>
+              <button id="contact-link" className="home-link">CONTACT</button>
             </Link>
           </Col>
         </Row>

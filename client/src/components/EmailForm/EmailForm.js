@@ -13,8 +13,9 @@ const EmailForm = (props) => {
           <label htmlFor="input-email">Email</label>
           <input className="input-field" type="text" name="input-email"/>
         </div>
+
         <textarea className="contact-textarea form-control" rows="8" id="email"></textarea>
-        <input className="contact-submit-btn" type="submit" name="contact-submit-form"/>
+        <input className="contact-submit-btn" type="submit" value="Send" name="contact-submit-form"/>
       </form>
     </div>
   );

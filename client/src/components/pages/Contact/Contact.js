@@ -9,7 +9,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-container">
-        {/* Main Page Row */}
+        {/* Main Page Panel */}
         <Row center="xs" className="contact-panel">
           <Col xs={12} sm={9} md={8} lg={8}>
             <Row center="xs">
@@ -23,15 +23,17 @@ class Contact extends Component {
 
                 <Row center="xs">
                   <Col xs={6}>
-                  
-                    <h1>Contact</h1>
-                    <div className="contact-media-buttons">
-                      <SocialButton iconName={"github"} size={"3x"} link={"https://github.com/mhdavis"} />
-                      <SocialButton iconName={"linkedin"} size={"3x"} link={"https://www.linkedin.com/in/m-h-davis/"} />
-                      <SocialButton iconName={"twitter"} size={"3x"} link={"https://twitter.com/M_HDavis"} />
+                    <div className="contact-content-container">
+                      <h1 className="contact-primary-title">Contact</h1>
+                      <div className="contact-media-buttons">
+                        <SocialButton iconName={"github"} size={"3x"} link={"https://github.com/mhdavis"} />
+                        <SocialButton iconName={"linkedin"} size={"3x"} link={"https://www.linkedin.com/in/m-h-davis/"} />
+                        <SocialButton iconName={"twitter"} size={"3x"} link={"https://twitter.com/M_HDavis"} />
+                      </div>
+                      <div className="contact-form-container">
+                        <EmailForm />
+                      </div>
                     </div>
-                    <EmailForm />
-
                   </Col>
                 </Row>
 
@@ -39,7 +41,7 @@ class Contact extends Component {
             </Row>
           </Col>
         </Row>
-        {/* Main Page Row */}
+        {/* Main Page Panel */}
 
       </div>
     );

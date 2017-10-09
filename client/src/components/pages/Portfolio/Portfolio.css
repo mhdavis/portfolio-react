@@ -6,8 +6,8 @@
 -------------------------------------------------------*/
 .portfolio-panel {
   background-color: white;
-  border-right: 10px solid orange;
-  border-radius: 0 10px 10px 0;
+  border-right: 14px solid orange;
+  height: 100vh;
 }
 
 .portfolio-information {
@@ -17,6 +17,8 @@
 }
 
 .portfolio-information > h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
   color: #2f393b;
 }
 
@@ -55,9 +57,10 @@
 }
 
 .portfolio-home-button {
+  font-family: 'Josefin Sans', sans-serif;
   border: 0;
   background-color: Transparent;
-  font-size: 17px;
+  font-size: 18px;
   color: orange;
   transition: 0.5s;
 }

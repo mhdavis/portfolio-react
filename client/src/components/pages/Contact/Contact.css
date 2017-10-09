@@ -1,12 +1,28 @@
+.contact-primary-title {
+  color: #2f393b;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+}
+
 .contact-panel {
   background-color: white;
-  border-bottom: 10px solid orange;
-  height: 70vh;
+  border-bottom: 14px solid orange;
+  height: 100%;
+}
+
+.contact-content-container {
+  margin-top: 3em;
 }
 
 /* SOCIAL MEDIA CONTAINER
 -------------------------------------------------------*/
 .contact-media-buttons {
+  margin: 1em 0;
+}
+
+/* CONTACT FORM CONTAINER
+-------------------------------------------------------*/
+.contact-form-container {
   margin: 1em 0;
 }
 
@@ -16,7 +32,8 @@
   margin-top: 1em;
   border: 0px;
   background-color: Transparent;
-  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
   color: orange;
   transition: 0.5s;
 }
