@@ -1,20 +1,44 @@
 .home-container {
   height: 100%;
   display: grid;
+  border: 2em solid white;
+  background-image: url("../../../img/thomas-kvistholt-191153.jpg");
+  background-size: cover;
 }
 
+.contact-link-container {
+  padding-bottom: 1.5em;
+}
+
+.tech-link-container {
+  padding-top: 1.5em;
+}
+
+/* SECTION LINK IDS
+--------------------------------------------------*/
+#tech-link {
+  background-color: hsla(168, 3%, 26%, 0.9);
+}
+
+
 #about-link {
+  background-color: hsla(168, 3%, 26%, 0.9);
   transform: rotate(-90deg);
 }
 
 #portfolio-link {
+  background-color: hsla(168, 3%, 26%, 0.9);
   transform: rotate(90deg);
+}
+
+#contact-link {
+  background-color: hsla(168, 3%, 26%, 0.9);
 }
 
 /* LOGO BOX CONTENTS
 --------------------------------------------------*/
 .logo-box {
-  background-color: hsla(168, 3%, 26%, 0.68);
+  background-color: hsla(168, 3%, 26%, 0.80);
   padding: 0.5em;
   max-width: 500px;
   margin: 0 auto;
@@ -42,12 +66,14 @@
 ----------------------------------------------------*/
 .home-link {
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: orange;
   background-color: Transparent;
-  font-size: 18px;
+  font-size: 20px;
   border: 0px;
   transition: 0.4s;
 }
 .home-link:hover {
-  color: orange;
+  color: white;
+  font-size: 24px;
+  padding: 1em;
 }

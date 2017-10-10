@@ -1,4 +1,10 @@
-.portfolio-container, .portfolio-content-row {
+.portfolio-container {
+  height: 100%;
+  background-image: url("../../../img/thomas-kvistholt-191153.jpg");
+  background-size: cover;
+}
+
+.portfolio-content-row {
   height: 100%;
 }
 
@@ -7,7 +13,6 @@
 .portfolio-panel {
   background-color: white;
   border-right: 14px solid orange;
-  height: 100vh;
 }
 
 .portfolio-information {

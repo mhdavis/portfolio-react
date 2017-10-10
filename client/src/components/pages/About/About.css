@@ -1,4 +1,11 @@
-.about-container, .about-content-row {
+.about-container {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("../../../img/thomas-kvistholt-191153.jpg");
+  background-size: cover;
+}
+
+.about-content-row {
   height: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -8,7 +15,6 @@
 .about-panel {
   background-color: white;
   border-left: 14px solid orange;
-  height: 100vh;
 }
 
 .about-information {

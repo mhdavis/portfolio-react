@@ -1,3 +1,9 @@
+.contact-container {
+  height: 100%;
+  background-image: url("../../../img/thomas-kvistholt-191153.jpg");
+  background-size: cover;
+}
+
 .contact-primary-title {
   color: #2f393b;
   font-family: 'Josefin Sans', sans-serif;

@@ -10,7 +10,7 @@ class Home extends Component {
 
         {/* Top Shelf */}
         <Row center="xs" top="xs">
-          <Col xs={12}>
+          <Col xs={12} className="tech-link-container">
             <Link to="/tech">
               <button id="tech-link" className="home-link">TECH</button>
             </Link>
@@ -19,7 +19,7 @@ class Home extends Component {
 
         {/* Middle Shelf */}
         <Row between="xs" middle="xs">
-          <Col xs={2}>
+          <Col xs={1}>
             <Row middle="xs">
               <Link to="/about">
                 <button id="about-link" className="home-link">ABOUT</button>
@@ -27,14 +27,14 @@ class Home extends Component {
             </Row>
           </Col>
 
-          <Col xs={8}>
+          <Col xs={10}>
             <div className="logo-box">
               <h1 className="primary-title">Michael H. Davis</h1>
               <h2 className="secondary-title">Fullstack Developer</h2>
             </div>
           </Col>
 
-          <Col xs={2}>
+          <Col xs={1}>
             <Row middle="xs" end="xs">
               <Link to="/portfolio">
                 <button id="portfolio-link" className="home-link">PORTFOLIO</button>
@@ -45,7 +45,7 @@ class Home extends Component {
 
         {/* Bottom Shelf */}
         <Row center="xs" bottom="xs">
-          <Col xs={12}>
+          <Col xs={12} className="contact-link-container">
             <Link to="/contact">
               <button id="contact-link" className="home-link">CONTACT</button>
             </Link>
