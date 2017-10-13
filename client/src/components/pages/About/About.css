@@ -1,13 +1,15 @@
 .about-container {
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
   background-image: url("../../../img/thomas-kvistholt-191153.jpg");
   background-size: cover;
 }
 
 .about-content-row {
-  height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
+  height: inherit;
+}
+
+.about-panel-col {
+  height: inherit;
 }
 
 /* ABOUT PANEL + CONTENTS
@@ -15,10 +17,12 @@
 .about-panel {
   background-color: white;
   border-left: 14px solid orange;
+  height: inherit;
 }
 
 .about-information {
   background-color: Transparent;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 1rem;
   padding: 1rem;
 }
@@ -38,7 +42,7 @@
 .about-information > p {
   color: #2f393b;
   margin: 2em 1em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 

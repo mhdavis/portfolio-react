@@ -9,14 +9,12 @@ class About extends Component {
       <div className="about-container">
         {/* Main Page Row */}
         <Row middle="xs" className="about-content-row">
-          {/* Main Image Column*/}
-          <Col xs={0} sm={3} md={4} lg={4}>
-          </Col>
 
           {/* Main Page Column */}
-          <Col xs={12} sm={9} md={8} lg={8}>
+          <Col className="about-panel-col" xs={12} smOffset={2} sm={10} mdOffset={2} md={10} lgOffset={4} lg={8}>
             {/* Panel Row */}
             <Row className="about-panel">
+
               {/* Panel Column */}
               <Col xs={11}>
                 <div className="about-information">
@@ -35,17 +33,20 @@ class About extends Component {
 
               {/* Button Column*/}
               <Col xs={1} className="about-route-col">
-                    <div className="about-route-container">
-                      <Link to="/">
-                        <button className="about-home-button">HOME</button>
-                      </Link>
-                    </div>
+                <div className="about-route-container">
+                  <Link to="/">
+                    <button className="about-home-button">HOME</button>
+                  </Link>
+                </div>
               </Col>
               {/* Button Column*/}
+
             </Row>
+
           </Col>
 
         </Row>
+        {/* Main Page Row */}
       </div>
     );
   }
