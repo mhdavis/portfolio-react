@@ -6,12 +6,12 @@
   border: 2em solid white;
 }
 
-.contact-link-container {
-  padding-bottom: 1.5em;
+.tech-link-container {
+  padding-top: 1em;
 }
 
-.tech-link-container {
-  padding-top: 1.5em;
+.contact-link-container {
+  padding-bottom: 1em;
 }
 
 /* SECTION LINK IDS
@@ -42,6 +42,10 @@
 @media screen and (max-width: 800px) {
   .home-container {
     border: 0px;
+  }
+
+  .bottom-shelf {
+    display: none;
   }
 
   #tech-link, #about-link, #portfolio-link, #contact-link {

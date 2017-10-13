@@ -8,18 +8,22 @@ class Home extends Component {
   render() {
     return (
       <div className="home-container">
-      <Navbar/>
         {/* Top Shelf */}
-        <Row center="xs" top="xs">
-          <Col xs={12} className="tech-link-container">
-            <Link to="/tech">
-              <button id="tech-link" className="home-link">TECH</button>
-            </Link>
+        <Row className="top-shelf" center="xs" top="xs">
+          <Col xs={12}>
+            <Navbar/>
+
+            <div className="tech-link-container">
+              <Link to="/tech">
+                <button id="tech-link" className="home-link">TECH</button>
+              </Link>
+            </div>
+
           </Col>
         </Row>
 
         {/* Middle Shelf */}
-        <Row between="xs" middle="xs">
+        <Row className="middle-shelf" between="xs" middle="xs">
           <Col xs={0} sm={1} md={1} lg={1}>
             <Row middle="xs">
               <Link to="/about">
@@ -45,11 +49,15 @@ class Home extends Component {
         </Row>
 
         {/* Bottom Shelf */}
-        <Row center="xs" bottom="xs">
-          <Col xs={12} className="contact-link-container">
-            <Link to="/contact">
-              <button id="contact-link" className="home-link">CONTACT</button>
-            </Link>
+        <Row className="bottom-shelf" center="xs" bottom="xs">
+          <Col xs={12}>
+
+            <div className="contact-link-container">
+              <Link to="/contact">
+                <button id="contact-link" className="home-link">CONTACT</button>
+              </Link>
+            </div>
+
           </Col>
         </Row>
       </div>
