@@ -12,16 +12,17 @@ class Portfolio extends Component {
         <Row middle="xs" className="portfolio-content-row">
 
           {/* Main Page Column */}
-          <Col xs={12} sm={9} md={8} lg={8}>
+          <Col className="about-panel-col" xs={12} sm={10} md={10} lg={8}>
             {/* Panel Row */}
             <Row className="portfolio-panel">
+
               {/* Button Column*/}
               <Col xs={1} className="portfolio-route-col">
-                    <div className="portfolio-route-container">
-                      <Link to="/">
-                        <button className="portfolio-home-button">HOME</button>
-                      </Link>
-                    </div>
+                <div className="portfolio-route-container">
+                  <Link to="/">
+                    <button className="portfolio-home-button">HOME</button>
+                  </Link>
+                </div>
               </Col>
               {/* Button Column*/}
 
@@ -52,13 +53,11 @@ class Portfolio extends Component {
               {/* Panel Column */}
 
             </Row>
-          </Col>
 
-          {/* Main Image Column*/}
-          <Col xs={0} sm={3} md={4} lg={4}>
           </Col>
 
         </Row>
+        {/* Main Page Row */}
       </div>
     );
   }

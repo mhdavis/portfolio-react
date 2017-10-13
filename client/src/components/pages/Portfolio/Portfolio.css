@@ -5,7 +5,11 @@
 }
 
 .portfolio-content-row {
-  height: 100%;
+  height: inherit;
+}
+
+.portfolio-panel-col {
+  height: inherit;
 }
 
 /* PORTFOLIO PANEL + CONTENTS
@@ -13,16 +17,17 @@
 .portfolio-panel {
   background-color: white;
   border-right: 14px solid orange;
+  height: inherit;
 }
 
 .portfolio-information {
   background-color: Transparent;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 1rem;
   padding: 1rem;
 }
 
 .portfolio-information > h1 {
-  font-family: 'Josefin Sans', sans-serif;
   font-size: 45px;
   color: #2f393b;
 }
