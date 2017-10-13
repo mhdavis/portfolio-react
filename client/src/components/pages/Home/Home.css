@@ -1,9 +1,9 @@
 .home-container {
   height: 100%;
   display: grid;
-  border: 2em solid white;
   background-image: url("../../../img/thomas-kvistholt-191153.jpg");
   background-size: cover;
+  border: 2em solid white;
 }
 
 .contact-link-container {
@@ -35,6 +35,24 @@
   background-color: hsla(168, 3%, 26%, 0.9);
 }
 
+.navbar {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .home-container {
+    border: 0px;
+  }
+
+  #tech-link, #about-link, #portfolio-link, #contact-link {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+  }
+}
+
 /* LOGO BOX CONTENTS
 --------------------------------------------------*/
 .logo-box {
@@ -42,6 +60,12 @@
   padding: 0.5em;
   max-width: 500px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 580px) {
+  .logo-box {
+    max-width: 300px;
+  }
 }
 
 .primary-title {
@@ -71,6 +95,7 @@
   font-size: 20px;
   border: 0px;
   transition: 0.4s;
+  padding: 0.25em;
 }
 .home-link:hover {
   color: white;

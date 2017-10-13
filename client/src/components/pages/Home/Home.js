@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { Row, Col } from 'react-flexbox-grid';
+import Navbar from './../../Navbar/Navbar';
 
 class Home extends Component {
   render() {
     return (
       <div className="home-container">
-
+      <Navbar/>
         {/* Top Shelf */}
         <Row center="xs" top="xs">
           <Col xs={12} className="tech-link-container">
@@ -19,7 +20,7 @@ class Home extends Component {
 
         {/* Middle Shelf */}
         <Row between="xs" middle="xs">
-          <Col xs={1}>
+          <Col xs={0} sm={1} md={1} lg={1}>
             <Row middle="xs">
               <Link to="/about">
                 <button id="about-link" className="home-link">ABOUT</button>
@@ -27,14 +28,14 @@ class Home extends Component {
             </Row>
           </Col>
 
-          <Col xs={10}>
+          <Col xs={12} sm={10} md={10} lg={10}>
             <div className="logo-box">
               <h1 className="primary-title">Michael H. Davis</h1>
               <h2 className="secondary-title">Fullstack Developer</h2>
             </div>
           </Col>
 
-          <Col xs={1}>
+          <Col xs={0} sm={1} md={1} lg={1}>
             <Row middle="xs" end="xs">
               <Link to="/portfolio">
                 <button id="portfolio-link" className="home-link">PORTFOLIO</button>

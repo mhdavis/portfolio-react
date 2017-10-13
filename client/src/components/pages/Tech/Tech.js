@@ -40,7 +40,6 @@ class Tech extends Component {
                            <TechItem />
                            <TechItem />
                            <TechItem />
-                           <TechItem />
                          </div>
 
                          <div className="tech-section-footer">
