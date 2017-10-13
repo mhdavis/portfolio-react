@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="topnav" id="myTopnav">
-        <a href="#home">Tech</a>
-        <a href="#news">About</a>
-        <a href="#contact">Portfolio</a>
-        <a href="#about">Contact</a>
+        <Link to="/tech">Tech</Link>
+        <Link to="/about">About</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );
