@@ -1,9 +1,9 @@
 .social-btn {
   background-color: orange;
-  min-height: 70px;
-  min-width: 70px;
+  min-height: 4em;
+  min-width: 4em;
   border: 0px;
-  margin: 0 0.4em;
+  margin: 0.4em;
   transition: 0.6s;
   color: white;
 }

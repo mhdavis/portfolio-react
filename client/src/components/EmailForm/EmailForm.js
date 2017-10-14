@@ -14,7 +14,7 @@ const EmailForm = (props) => {
           <input className="input-field" type="text" name="input-email"/>
         </div>
 
-        <textarea className="contact-textarea form-control" rows="8" id="email"></textarea>
+        <textarea className="contact-textarea form-control" rows="5" id="email"></textarea>
         <input className="contact-submit-btn" type="submit" value="Send" name="contact-submit-form"/>
       </form>
     </div>

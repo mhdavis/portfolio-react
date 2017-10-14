@@ -2,11 +2,12 @@
 -------------------------------------------------------*/
 .contact-textarea {
   border: 2px solid #2f393b;
-  width: 97.5%;
+  border-radius: 0;
+  width: 100%;
   resize: vertical;
   color: #2f393b;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .contact-input {
@@ -16,24 +17,26 @@
 .contact-input > label {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2em;
-  width: 30%;
+  margin: 0;
   color: #2f393b;
 }
 
 .contact-input > input {
   font-family: 'Josefin Sans', sans-serif;
-  width: 70%;
   color: #2f393b;
+  width: inherit;
+  margin: 0 0 1em 0;
+  padding: 0;
 }
 
 .input-field {
   border: 2px solid #2f393b;
-  margin: 0.2em 0 0.2em 0.2em;
+  margin: 0.2em;
 }
 
 .contact-submit-btn {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
+  font-size: 1.75em;
   background-color: #2f393b;
   color: white;
   width: 100%;
