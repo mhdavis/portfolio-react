@@ -1,13 +1,28 @@
 import React, { Component } from 'react';
-import Main from './components/pages/Main/Main';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
+import Home from './components/pages/Home/Home';
+import About from './components/pages/About/About';
+import Tech from './components/pages/Tech/Tech';
+import Portfolio from './components/pages/Portfolio/Portfolio';
+import Contact from './components/pages/Contact/Contact';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="app-container">
-        <Main />
-      </div>
+      <Router>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/portfolio" component={Portfolio}/>
+            <Route path="/tech" component={Tech}/>
+          </Switch>
+      </Router>
     );
   }
 }
