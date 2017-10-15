@@ -14,15 +14,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/tech" component={Tech}/>
-          </Switch>
-      </Router>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contact" component={Contact}/>
+        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/tech" component={Tech}/>
+      </Switch>
     );
   }
 }
