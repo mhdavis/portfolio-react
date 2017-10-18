@@ -1,0 +1,110 @@
+[
+  {
+    "name" : "Devicon React",
+    "description" : "A react implementation of Devicon fonts",
+    "repo" : "https://github.com/mhdavis/devicon-react",
+    "host" : "https://www.npmjs.com/package/devicon-react"
+  },
+  {
+    "name" : "Article Scraper",
+    "description" : "A article scraping application using Cheerio",
+    "repo" : "https://github.com/mhdavis/article-scraper"
+  },
+  {
+    "name" : "Polititracker",
+    "description" : "a local election tracking application",
+    "repo" : "https://github.com/mhdavis/polititracker",
+    "host" : "https://polititracker.herokuapp.com/"
+  },
+  {
+    "name" : "Eat-Da-Burger",
+    "description" : "A burger checklist application exploring CRUD in Sequelize",
+    "repo" : "https://github.com/mhdavis/eat-da-burger",
+    "host" : "https://mhdeatdaburger.herokuapp.com/"
+  },
+  {
+    "name" : "Tribute Page",
+    "description" : "My first project! A tribute page to Elon Musk",
+    "repo" : "https://github.com/mhdavis/elon-musk-tribute-page",
+    "host" : "https://mhdavis.github.io/elon-musk-tribute-page/"
+  },
+  {
+    "name" : "Gastro",
+    "description" : "A restaurant selection application for friend groups",
+    "repo" : "https://github.com/mhdavis/Gastro",
+    "host" : "https://mhdavis.github.io/Gastro/"
+  },
+  {
+    "name" : "Friend Finder",
+    "description" : "A compatibility-based matching application exploring express routing",
+    "repo" : "https://github.com/mhdavis/friend-finder"
+  },
+  {
+    "name" : "Taskmaster",
+    "description" : "A command-line task scheduling application",
+    "repo" : "https://github.com/mhdavis/taskmaster"
+  },
+  {
+    "name" : "Bamazon",
+    "description" : "An amazon-esk store management app built using Node / mySql",
+    "repo" : "https://github.com/mhdavis/bamazon"
+  },
+  {
+    "name" : "Twitch Streamer App",
+    "description" : "An app that displays select online twitch streamers",
+    "repo" : "https://github.com/mhdavis/twitch-streamer-app",
+    "host" : "https://mhdavis.github.io/twitch-streamer-app/"
+  },
+  {
+    "name" : "Flashcard Generator",
+    "description" : "An exploration into JS Constructor functions",
+    "repo" : "https://github.com/mhdavis/flashcard-generator"
+  },
+  {
+    "name" : "Liri Bot",
+    "description" : "A command-line tool for pulling popular API data",
+    "repo" : "https://github.com/mhdavis/liri-bot"
+  },
+  {
+    "name" : "Rock Paper Scissors",
+    "description" : "A Rock Paper Scissors Game complete w/ chat using Firebase",
+    "repo" : "https://github.com/mhdavis/rock-paper-scissors-game",
+    "host" : "https://mhdavis.github.io/rock-paper-scissors-game/"
+  },
+  {
+    "name" : "Local Weather App",
+    "description" : "A local weather application built using the WeatherUnderground API",
+    "repo" : "https://github.com/mhdavis/local-weather-app",
+    "host" : "https://mhdavis.github.io/local-weather-app/"
+  },
+  {
+    "name" : "Giphy API Loader",
+    "description" : "An app that pulls up search results from the Giphy API",
+    "repo" : "https://github.com/mhdavis/giphy-api-loader",
+    "host" : "https://mhdavis.github.io/giphy-api-loader/"
+  },
+  {
+    "name" : "Basic Trivia Game",
+    "description" : "A basic trivia game using jQuery",
+    "repo" : "https://github.com/mhdavis/basic-trivia-game",
+    "host" : "https://mhdavis.github.io/basic-trivia-game/"
+  },
+  {
+    "name" : "Quote Generator",
+    "description" : "A random quote generator built using forismatic api (for quotes) and unsplash api (for images)",
+    "repo" : "https://github.com/mhdavis/random-quote-generator",
+    "host" : "https://mhdavis.github.io/random-quote-generator/"
+  },
+  {
+    "name" : "Crystal Collector Game",
+    "description" : "A game called Crystal Collector built with js / jQuery",
+    "repo" : "https://github.com/mhdavis/crystal-collector-game",
+    "host" : "https://mhdavis.github.io/crystal-collector-game/"
+  },
+  {
+    "name" : "JS Hangman",
+    "description" : "A simple hangman game built with javascript",
+    "repo" : "https://github.com/mhdavis/js-hangman",
+    "host" : "https://mhdavis.github.io/js-hangman/"
+  }
+]

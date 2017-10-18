@@ -4,7 +4,7 @@ import "./SocialButton.css"
 
 const SocialButton = (props) => {
   return (
-    <a href={props.link} target="_blank">
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
       <button id={props.iconName} className="social-btn">
         <Icon name={props.iconName} size={props.size} />
       </button>

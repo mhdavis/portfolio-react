@@ -42,7 +42,7 @@
 .about-information > p {
   color: #2f393b;
   margin: 2em 1em;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 
@@ -69,6 +69,6 @@
 }
 
 .about-home-button:hover {
-  font-size: 20px;
+  font-size: 25px;
   color: darkorange;
 }

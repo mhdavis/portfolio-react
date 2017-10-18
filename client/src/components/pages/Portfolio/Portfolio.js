@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 import "./Portfolio.css";
 import { Row, Col } from 'react-flexbox-grid';
 import PortfolioItem from "./../../PortfolioItem/PortfolioItem";
+import items from "./portfolio.json";
 
 class Portfolio extends Component {
+  state = {
+    items
+  };
+
   render() {
     return (
       <div className="portfolio-container">
@@ -33,20 +38,17 @@ class Portfolio extends Component {
                   <hr/>
 
                   <div className="portfolio-items-box">
-                    <PortfolioItem />
-                    <PortfolioItem />
-
-                    <PortfolioItem />
-                    <PortfolioItem />
-
-                    <PortfolioItem />
-                    <PortfolioItem />
-
-                    <PortfolioItem />
-                    <PortfolioItem />
-
-                    <PortfolioItem />
-                    <PortfolioItem />
+                    {
+                      this.state.items.map(item => {
+                        return <PortfolioItem
+                         key={item.name}
+                         name={item.name}
+                         description={item.description}
+                         repo={item.repo}
+                         host={item.host}
+                        />
+                      })
+                    }
                   </div>
                 </div>
               </Col>

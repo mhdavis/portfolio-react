@@ -1,5 +1,27 @@
 .portfolio-item {
   min-width: 200px;
   max-height: 400px;
-  background-color: orange;
+  border: 3px solid orange;
+  border-radius: 10px;
+  color: #2f393b;
+  padding: 1em;
+  display: grid;
+}
+
+.portfolio-item-btn-set {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-item-btn {
+  background-color: Transparent;
+  color: #2f393b;
+  border: 0px;
+  margin: 0 0.75em;
+  transition: 0.4s
+}
+
+.portfolio-item-btn:hover {
+  color: orange;
 }
