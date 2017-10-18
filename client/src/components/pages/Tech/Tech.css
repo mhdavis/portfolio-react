@@ -1,10 +1,15 @@
 .tech-container {
+  height: 100%;
   background-image: url("../../../img/thomas-kvistholt-191153.jpg");
   background-size: cover;
 }
 
 .tech-section-header {
   color: orange;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech-primary-title {
@@ -14,6 +19,7 @@
 }
 
 .tech-panel {
+  height: 80%;
   border-top: 14px solid orange;
   background-color: white;
   padding: 1em;
@@ -35,7 +41,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
   grid-gap: 1.5rem;
-  height: 500px;
+  height: 65vh;
   margin: 0.5em 1em;
   padding: 1em;
   overflow-y: scroll;

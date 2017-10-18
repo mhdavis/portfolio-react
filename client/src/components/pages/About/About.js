@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "./About.css";
 import { Row, Col } from 'react-flexbox-grid';
+import about from "./about.json";
 
 class About extends Component {
+  state = {
+    about
+  };
+
   render() {
     return (
       <div className="about-container">
@@ -17,16 +22,14 @@ class About extends Component {
 
               {/* Panel Column */}
               <Col xs={11}>
-                <div className="about-information">
+                <div className="about-content">
                   <h1>About</h1>
                   <hr/>
-                  <p>
-                    Est qui natus et magnam dicta. Animi nesciunt odio omnis quam magnam laudantium. Temporibus sapiente in doloribus. Est libero rerum est culpa doloremque molestias vero. Perferendis nam repellendus et. Est qui numquam atque qui aperiam perferendis libero.
-                    Est qui natus et magnam dicta.
-                    <br/>
-                    <br/>
-                    Animi nesciunt odio omnis quam magnam laudantium. Temporibus sapiente in doloribus. Est libero rerum est culpa doloremque molestias vero. Perferendis nam repellendus et. Est qui numquam atque qui aperiam perferendis libero.
-                  </p>
+                  <div className="about-information">
+                    <div className="about-picture"></div>
+                    <p>{this.state.about.overview}</p>
+                    <p>{this.state.about.interests}</p>
+                  </div>
                 </div>
               </Col>
               {/* Panel Column */}

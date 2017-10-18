@@ -12,7 +12,8 @@ class Tech extends Component {
           <Col xs={12}>
 
             <Row center="xs">
-              <Col xs={12} sm={12} md={10} lg={10}>
+              <Col className="tech-panel-col" xs={12} sm={12} md={10} lg={10}>
+
                  {/* Tech Section Header */}
                  <div className="tech-section-header">
                   <h1 className="tech-primary-title">Technologies</h1>

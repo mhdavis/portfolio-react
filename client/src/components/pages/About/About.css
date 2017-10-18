@@ -20,31 +20,43 @@
   height: inherit;
 }
 
-.about-information {
+.about-picture {
+  background-image: url("../../../img/me.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 1em auto;
+}
+
+.about-content {
   background-color: Transparent;
   font-family: 'Josefin Sans', sans-serif;
   margin: 1rem;
   padding: 1rem;
 }
 
-.about-information > h1 {
+.about-content > h1 {
   font-size: 45px;
   color: #2f393b;
 }
 
-.about-information > hr {
+.about-content > hr {
   background-color: orange;
   height: 5px;
   border: 0px;
   border-radius: 2px;
 }
 
-.about-information > p {
+.about-content > p {
   color: #2f393b;
   margin: 2em 1em;
-  font-size: 2em;
+  font-size: 20px;
 }
 
+.about-information {
+  margin: 10% 0em;
+}
 
 /* HOME BUTTON
 -------------------------------------------------------*/
