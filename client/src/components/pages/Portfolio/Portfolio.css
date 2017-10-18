@@ -46,11 +46,18 @@
 .portfolio-items-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 1px solid Transparent;
+  justify-content: space-around;
   grid-gap: 1.5rem;
-  height: 500px;
+  height: 80vh;
+  margin: 0.5em 1em;
   padding: 1em;
   overflow-y: scroll;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio-items-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* HOME BUTTON

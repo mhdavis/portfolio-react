@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './Tech.css';
 import { Row, Col } from 'react-flexbox-grid';
-import TechItem from "./../../TechItem/TechItem";
+import Icon from "./../../Icon/Icon";
 
 class Tech extends Component {
   render() {
@@ -29,17 +29,30 @@ class Tech extends Component {
                          <h2 className="tech-line">I have worked with...</h2>
 
                          <div className="tech-items-box">
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
-                           <TechItem />
+                          <Icon name="javascript" />
+                          <Icon name="react" />
+                          <Icon name="express" />
+                          <Icon name="nodejs" />
+                          <Icon name="mongodb" />
+                          <Icon name="mysql" />
+                          <Icon name="atom" />
+                          <Icon name="bootstrap" />
+                          <Icon name="chrome" />
+                          <Icon name="ie10" />
+                          <Icon name="firefox" />
+                          <Icon name="html5" />
+                          <Icon name="css3" />
+                          <Icon name="jquery" />
+                          <Icon name="handlebars" />
+                          <Icon name="devicon" />
+                          <Icon name="git" />
+                          <Icon name="yarn" />
+                          <Icon name="heroku" />
+                          <Icon name="mocha" />
+                          <Icon name="npm" />
+                          <Icon name="sequelize" />
+                          <Icon name="slack" />
+                          <Icon name="webpack" />
                          </div>
 
                          <div className="tech-section-footer">
