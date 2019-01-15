@@ -1,12 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Transition } from 'react-spring';
 import { Link } from "react-router-dom";
 import './Tech.css';
 import { Row, Col } from 'react-flexbox-grid';
 import Icon from "./../../Icon/Icon";
 
-class Tech extends Component {
-  render() {
-    return (
+const Tech = ({ location }) => (
+  <Transition
+    items={location}
+    from={{ transform: "translateY(100vh)" }}
+    enter={{ transform: "translateY(0vh)" }}
+    leave={{ transform: "translateY(100vh)" }}
+    config={{ duration: 500 }}
+  >
+    {location => props => (
       <div className="tech-container">
         <Row>
           <Col xs={12}>
@@ -21,7 +28,7 @@ class Tech extends Component {
                  {/* Tech Section Header */}
 
                  {/* Tech Section Body */}
-                 <Row className="tech-section-body">
+                 <Row style={props} className="tech-section-body">
                    <Col xs={12} className="tech-panel">
 
                      <Row center="xs">
@@ -75,8 +82,8 @@ class Tech extends Component {
           </Col>
         </Row>
       </div>
-    );
-  }
-}
+    )}
+    </Transition>
+  );
 
 export default Tech;
