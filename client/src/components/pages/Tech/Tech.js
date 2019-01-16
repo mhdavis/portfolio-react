@@ -21,7 +21,9 @@ const Tech = ({ location }) => (
               <Col className="tech-panel-col" xs={12} sm={12} md={10} lg={10}>
                 {/* Tech Section Header */}
                 <div className="tech-section-header">
-                  <h1 className="tech-primary-title">Technologies</h1>
+                  <div className="tech-primary-title-background">
+                    <h1 className="tech-primary-title">Technologies</h1>
+                  </div>
                 </div>
                 {/* Tech Section Header */}
 

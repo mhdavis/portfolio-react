@@ -5,14 +5,19 @@
 }
 
 .tech-section-header {
-  color: orange;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.tech-primary-title-background {
+  color: #2f393b;
+  background-color: hsla(168, 3%, 26%, 0.9);
+}
+
 .tech-primary-title {
+  color: white;
   align-content: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 45px;
