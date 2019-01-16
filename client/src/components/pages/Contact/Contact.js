@@ -9,9 +9,12 @@ import { Transition } from "react-spring";
 const Contact = ({ location }) => (
   <Transition
     items={location}
-    from={{ transform: "translateY(-100vh)" }}
-    enter={{ transform: "translateY(0vh)" }}
-    leave={{ transform: "translateY(-100vh)" }}
+    from={{ transform: "translateY(-100vh)", transitionTimingFunction: "ease" }}
+    enter={{ transform: "translateY(0vh)", transitionTimingFunction: "ease" }}
+    leave={{
+      transform: "translateY(-100vh)",
+      transitionTimingFunction: "ease"
+    }}
     config={{ duration: 500 }}
   >
     {location => props => (

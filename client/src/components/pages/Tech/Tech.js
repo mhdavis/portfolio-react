@@ -1,42 +1,38 @@
-import React from 'react';
-import { Transition } from 'react-spring';
+import React from "react";
+import { Transition } from "react-spring";
 import { Link } from "react-router-dom";
-import './Tech.css';
-import { Row, Col } from 'react-flexbox-grid';
+import "./Tech.css";
+import { Row, Col } from "react-flexbox-grid";
 import Icon from "./../../Icon/Icon";
 
 const Tech = ({ location }) => (
   <Transition
     items={location}
-    from={{ transform: "translateY(100vh)" }}
-    enter={{ transform: "translateY(0vh)" }}
-    leave={{ transform: "translateY(100vh)" }}
+    from={{ transform: "translateY(100vh)", transitionTimingFunction: "ease" }}
+    enter={{ transform: "translateY(0vh)", transitionTimingFunction: "ease" }}
+    leave={{ transform: "translateY(100vh)", transitionTimingFunction: "ease" }}
     config={{ duration: 500 }}
   >
     {location => props => (
       <div className="tech-container">
         <Row>
           <Col xs={12}>
-
             <Row center="xs">
               <Col className="tech-panel-col" xs={12} sm={12} md={10} lg={10}>
-
-                 {/* Tech Section Header */}
-                 <div className="tech-section-header">
+                {/* Tech Section Header */}
+                <div className="tech-section-header">
                   <h1 className="tech-primary-title">Technologies</h1>
-                 </div>
-                 {/* Tech Section Header */}
+                </div>
+                {/* Tech Section Header */}
 
-                 {/* Tech Section Body */}
-                 <Row style={props} className="tech-section-body">
-                   <Col xs={12} className="tech-panel">
+                {/* Tech Section Body */}
+                <Row style={props} className="tech-section-body">
+                  <Col xs={12} className="tech-panel">
+                    <Row center="xs">
+                      <Col xs={12}>
+                        <h2 className="tech-line">I have worked with...</h2>
 
-                     <Row center="xs">
-                       <Col xs={12}>
-
-                         <h2 className="tech-line">I have worked with...</h2>
-
-                         <div className="tech-items-box">
+                        <div className="tech-items-box">
                           <Icon name="javascript" />
                           <Icon name="react" />
                           <Icon name="express" />
@@ -61,29 +57,25 @@ const Tech = ({ location }) => (
                           <Icon name="sequelize" />
                           <Icon name="slack" />
                           <Icon name="webpack" />
-                         </div>
+                        </div>
 
-                         <div className="tech-section-footer">
-                           <Link to="/">
-                             <button className="tech-home-button">HOME</button>
-                           </Link>
-                         </div>
-
-                       </Col>
-                     </Row>
-
-                   </Col>
-                 </Row>
-                 {/* Tech Section Body */}
-
-               </Col>
+                        <div className="tech-section-footer">
+                          <Link to="/">
+                            <button className="tech-home-button">HOME</button>
+                          </Link>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Col>
+                </Row>
+                {/* Tech Section Body */}
+              </Col>
             </Row>
-
           </Col>
         </Row>
       </div>
     )}
-    </Transition>
-  );
+  </Transition>
+);
 
 export default Tech;

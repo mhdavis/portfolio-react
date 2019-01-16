@@ -8,9 +8,9 @@ import about from "./about.json";
 const About = ({ location }) => (
   <Transition
     items={location}
-    from={{ transform: "translateX(100vh)" }}
-    enter={{ transform: "translateX(0vh)" }}
-    leave={{ transform: "translateX(100vh)" }}
+    from={{ transform: "translateX(100vh)", transitionTimingFunction: "ease-in" }}
+    enter={{ transform: "translateX(0vh)", transitionTimingFunction: "ease-in" }}
+    leave={{ transform: "translateX(100vh)", transitionTimingFunction: "ease-in" }}
     config={{ duration: 500 }}
   >
     {location => props => (

@@ -18,32 +18,69 @@ class Home extends React.Component {
   determineRouteAnimations(route) {
     const routeStyle = {
       from: { opacity: 1 },
-      enter: { opacity: 1},
+      enter: { opacity: 1 },
       leave: { opacity: 1 },
       config: { duration: 0 }
     };
+    const transitionTimingFunction = "ease";
     if (route === "/tech") {
-      routeStyle.from = { transform: "translateY(-100vh)" };
-      routeStyle.enter = { transform: "translateY(0vh)" };
-      routeStyle.leave = { transform: "translateY(-100vh)" };
+      routeStyle.from = {
+        transform: "translateY(-100vh)",
+        transitionTimingFunction
+      };
+      routeStyle.enter = {
+        transform: "translateY(0vh)",
+        transitionTimingFunction
+      };
+      routeStyle.leave = {
+        transform: "translateY(-100vh)",
+        transitionTimingFunction
+      };
       routeStyle.config = { duration: 500 };
     }
     if (route === "/contact") {
-      routeStyle.from = { transform: "translateY(100vh)" };
-      routeStyle.enter = { transform: "translateY(0vh)" };
-      routeStyle.leave = { transform: "translateY(100vh)" };
+      routeStyle.from = {
+        transform: "translateY(100vh)",
+        transitionTimingFunction
+      };
+      routeStyle.enter = {
+        transform: "translateY(0vh)",
+        transitionTimingFunction
+      };
+      routeStyle.leave = {
+        transform: "translateY(100vh)",
+        transitionTimingFunction
+      };
       routeStyle.config = { duration: 500 };
     }
     if (route === "/portfolio") {
-      routeStyle.from = { transform: "translateX(100vh)" };
-      routeStyle.enter = { transform: "translateX(0vh)" };
-      routeStyle.leave = { transform: "translateX(100vh)" };
+      routeStyle.from = {
+        transform: "translateX(100vh)",
+        transitionTimingFunction
+      };
+      routeStyle.enter = {
+        transform: "translateX(0vh)",
+        transitionTimingFunction
+      };
+      routeStyle.leave = {
+        transform: "translateX(100vh)",
+        transitionTimingFunction
+      };
       routeStyle.config = { duration: 500 };
     }
     if (route === "/about") {
-      routeStyle.from = { transform: "translateX(-100vh)" };
-      routeStyle.enter = { transform: "translateX(0vh)" };
-      routeStyle.leave = { transform: "translateX(-100vh)" };
+      routeStyle.from = {
+        transform: "translateX(-100vh)",
+        transitionTimingFunction
+      };
+      routeStyle.enter = {
+        transform: "translateX(0vh)",
+        transitionTimingFunction
+      };
+      routeStyle.leave = {
+        transform: "translateX(-100vh)",
+        transitionTimingFunction
+      };
       routeStyle.config = { duration: 500 };
     }
     // route is home
